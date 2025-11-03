@@ -1,6 +1,6 @@
 ﻿# Chess Piece Moves
 
-A .NET 9 application Soution for Cassido's Interview question of the week - 3rd November 2025
+A .NET 9 application Soution for [Cassido's Interview question of the week - 3rd November 2025](https://buttondown.com/cassidoo/archive/your-voice-matters-your-stories-are-worth-telling/)
 
 ## Overview
 
@@ -115,28 +115,6 @@ public interface IMoveService
 - **Returns**: A 2D integer array containing all valid move coordinates
 - **Description**: Calculates all possible knight moves from the given position that remain within board boundaries
 
-## Test Coverage
-
-The project includes comprehensive unit tests for knight moves:
-
-- ✅ Valid position in center of board (maximum moves)
-- ✅ Bottom-left corner position (limited moves)
-- ✅ Top-left corner position (limited moves)
-- ✅ Top-right corner position (limited moves)
-
-## Future Enhancements
-
-Potential features for future development:
-- [ ] Additional chess pieces (rook, bishop, queen, king, pawn)
-- [ ] Move validation considering piece captures
-- [ ] Check and checkmate detection
-- [ ] Full game state management
-- [ ] Interactive console interface
-- [ ] Graphical user interface
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit pull requests or open issues for bugs and feature requests.
 
 ## License
 
